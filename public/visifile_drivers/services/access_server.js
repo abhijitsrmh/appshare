@@ -14,25 +14,25 @@ only_run_on_server(true)
         //noaccess.load({fileName:   args.path)
 
 
-        //
+        
         // get tables
-        //
+        
         if (args.get_tables) {
 
             let ret = noaccess.getTables()
             returnFn(ret)
-        //
+        
         // get columns
-        //
+        
         } else if (args.get_columns) {
 
             let ret = noaccess.getColumns(args.table)
             returnFn(ret)
 
 
-        //
+        
         // execute SQL
-        //
+        
         } else {
 
 
